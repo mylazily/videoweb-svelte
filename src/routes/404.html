@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>Loading...</title>
+  <script>
+    // SPA fallback - redirect to root and let client handle routing
+    const path = window.location.pathname;
+    window.location.replace('/#' + path);
+  </script>
+</head>
+<body>
+  <div style="display:flex;justify-content:center;align-items:center;height:100vh;color:#FB7299;">
+    Loading...
+  </div>
+</body>
+</html>
