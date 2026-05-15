@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+
+:root {
+  --primary: #FB7299;
+  --primary-dark: #E5658A;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #0f0f0f;
+  color: white;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
